@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DWOpenWeatherMapService init]:DWOpenWeatherMapService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWSettingsViewController tableView:cellForRowAtIndexPath:]:DWSettingsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.textLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWViewController installLocation:]:DWViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWorldWeatherOnlineService dealloc]:DWWorldWeatherOnlineService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cityName.retainCount">
+            </PersistentString>
+            <PersistentString
+               value = "self.forecastDataRequest.retainCount">
+            </PersistentString>
+            <PersistentString
+               value = "self.currentWeatherRequest.retainCount">
+            </PersistentString>
+            <PersistentString
+               value = "self.retainCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWNetworkManager loadDataFromURL:]:DWNetworkManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "&amp;URL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWLocationSearchViewController searchDisplayController:shouldReloadTableForSearchString:]:DWLocationSearchViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWModel getData:]:DWModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWForecastItem toKilometersPH]:DWForecastItem.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWLocationSearchViewController tableView:didSelectRowAtIndexPath:]:DWLocationSearchViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWLocationSearchViewController filterContentForSearchText:scope:]:DWLocationSearchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSString stringWithFormat:@&quot;%@%@&quot;, _locationQuery, searchText]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWorldWeatherOnlineService setCityName:]:DWWorldWeatherOnlineService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentWeatherRequest.retainCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWeatherService toMetersPS]:DWWeatherService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWeatherService setWeatherDataWithLoadedDictionary:]:DWWeatherService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[dictionary objectForKey:@&quot;weather&quot;] objectAtIndex: 1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWOpenWeatherMapService setCurrentWeatherWithLoadedDictionary:]:DWOpenWeatherMapService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWorldWeatherOnlineService setForecastWithLoadedDictionary:]:DWWorldWeatherOnlineService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWNetworkManager connectionDidFinishLoading:]:DWNetworkManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWModel init]:DWModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWModel weatherInfo]:DWModel.h">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWorldWeatherOnlineService setCurrentWeatherWithLoadedDictionary:]:DWWorldWeatherOnlineService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWeatherService setCurrentWeatherWithLoadedDictionary:]:DWWeatherService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWViewController getData:]:DWViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWeatherService setCityName:]:DWWeatherService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWeatherService dealloc]:DWWeatherService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWModel setWeatherInfo:]:DWModel.h">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWeatherService toKilometersPH]:DWWeatherService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWSettingsViewController closeSettingsViewAction:]:DWSettingsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "settings.retainCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWViewController refreshCellData:]:DWViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.weatherIcon">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWViewController viewDidLoad]:DWViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWModel installSettings:]:DWModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.weatherInfo.windSpeedOption">
+            </PersistentString>
+            <PersistentString
+               value = "self.weatherInfo.currentWeather">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWeatherUnderground setCityName:]:DWWeatherUnderground.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWWorldWeatherOnlineService parseIconCode:]:DWWorldWeatherOnlineService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWViewController tableView:cellForRowAtIndexPath:]:DWViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellIdentifier.retainCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DWViewController installLocationName:andLatitude:andLongtitude:]:DWViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DWViewController refreshMainCellData:]:DWViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[dictionary objectForKey:@&quot;icon&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
