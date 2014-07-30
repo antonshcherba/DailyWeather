@@ -132,11 +132,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DailyWeather/DWViewController.m"
-            timestampString = "428408348.785004"
+            timestampString = "428412257.118342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "-refreshCellData:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DailyWeather/DWViewController.m"
+            timestampString = "428412257.118342"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "-refreshMainCellData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -148,12 +164,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DailyWeather/DWViewController.m"
-            timestampString = "428404620.382449"
+            timestampString = "428412257.118342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-refreshMainCellData:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -164,12 +180,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DailyWeather/DWViewController.m"
-            timestampString = "428408348.785004"
+            timestampString = "428412257.118342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "-refreshCellData:"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-refreshControlAction:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

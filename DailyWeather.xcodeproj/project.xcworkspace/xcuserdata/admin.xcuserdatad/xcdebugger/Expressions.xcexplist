@@ -17,6 +17,14 @@
          contextName = "-[DWViewController installLocation:]:DWViewController.m">
       </ContextState>
       <ContextState
+         contextName = "-[DWViewController refreshControlAction:]:DWViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.refreshControl.attributedTitle.retainCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[DWWorldWeatherOnlineService dealloc]:DWWorldWeatherOnlineService.m">
          <PersistentStrings>
             <PersistentString
@@ -130,19 +138,25 @@
             <PersistentString
                value = "item.weatherIcon">
             </PersistentString>
+            <PersistentString
+               value = "self.refreshControl.attributedTitle.retainCount">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[DWViewController viewDidLoad]:DWViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "refreshControl.attributedTitle.retainCount">
-            </PersistentString>
-            <PersistentString
-               value = "tmp.retainCount">
-            </PersistentString>
-            <PersistentString
                value = "self.refreshControl.attributedTitle.retainCount">
+            </PersistentString>
+            <PersistentString
+               value = "self.refreshControl.attributedTitle">
+            </PersistentString>
+            <PersistentString
+               value = "_refreshTitle.retainCount">
+            </PersistentString>
+            <PersistentString
+               value = "refreshControl.attributedTitle.retainCount">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -181,7 +195,13 @@
                value = "self.refreshControl.attributedTitle.retainCount">
             </PersistentString>
             <PersistentString
+               value = "self.refreshControl.attributedTitle">
+            </PersistentString>
+            <PersistentString
                value = "[dictionary objectForKey:@&quot;icon&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.refreshControl">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

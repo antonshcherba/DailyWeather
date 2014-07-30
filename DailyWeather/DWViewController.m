@@ -11,15 +11,10 @@
 #import "DWForecastCell.h"
 #import "DWModel.h"
 
-@interface DWViewController ()
-
-@property (nonatomic, strong) NSAttributedString *refreshTitle;
-
-@end
-
 @implementation DWViewController
 {
     DWModel *model;
+    NSAttributedString *refreshTitle;
 }
 
 - (void)viewDidLoad
@@ -46,14 +41,13 @@
     
     [userSettings autorelease];
     
+    refreshTitle = [[NSAttributedString alloc] initWithString:@"Loading weather data"];
     UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
     [refreshControl addTarget:self action:@selector(refreshControlAction:) forControlEvents:UIControlEventValueChanged];
     [self setRefreshControl:refreshControl];
+    [self.refreshControl setTintColor:[UIColor blueColor]];
     
-    NSAttributedString *tmp = [[NSAttributedString alloc] initWithString:@"Loading weather data"];
-    self.refreshControl.attributedTitle = tmp;
-    //NSLog(@"viewDidLoad count %i", refreshControl.attributedTitle.retainCount);
-    NSLog(@"viewDidLoad count %i", self.refreshControl.attributedTitle.retainCount);
+    self.refreshControl.attributedTitle = refreshTitle;
     [self.refreshControl beginRefreshing];
     [model loadCurrentData];
     [model loadForecastData];
@@ -85,27 +79,24 @@
 
 -(void)refreshControlAction: (UIRefreshControl *) sender
 {
-    //[sender.attributedTitle release];
-    NSLog(@"refreshControlAction count %lu", (unsigned long)self.refreshControl.attributedTitle.retainCount);
-    sender.attributedTitle = [[NSAttributedString alloc] initWithString:@"Loading weather data"];
+    refreshTitle = [[NSAttributedString alloc] initWithString:@"Loading weather data"];
+    sender.attributedTitle = refreshTitle;
+
     [model loadCurrentData];
     [model loadForecastData];
-    //[self.refreshControl endRefreshing];
 }
 
 #pragma mark - Model operations
 
 - (void) refreshMainCellData: (NSNotification *) notification {
-    //[self.refreshControl.attributedTitle release];
-    NSLog(@"refreshMainCellData count %lu", (unsigned long)self.refreshControl.attributedTitle.retainCount);
-    self.refreshControl.attributedTitle = [[NSAttributedString alloc] initWithString:@"Refreshing data"];
+
+    [refreshTitle release];
+    refreshTitle = [[NSAttributedString alloc] initWithString:@"Refreshing data"];
+    self.refreshControl.attributedTitle = refreshTitle;
     
     self.title = model.weatherInfo.cityName;
     DWMainCell *cell = (DWMainCell *)[self.InfoTable cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
     [self refreshCellData:cell withItem:model.weatherInfo.currentWeather];
-    [self.refreshControl endRefreshing];
-    
-
 }
 
 - (void) refreshCellData: (NSNotification *) notification {
@@ -122,7 +113,10 @@
         row++;
     }
     [dateFormatter release];
-    //[self.refreshControl endRefreshing];
+    [self.refreshControl endRefreshing];
+    [refreshTitle release];
+    refreshTitle = nil;
+    self.refreshControl.attributedTitle = nil;
 }
 
 -(void) refreshCellData: (UITableViewCell*) cell withItem: (DWForecastItem*) item
