@@ -45,10 +45,10 @@
          contextName = "-[DWLocationSearchViewController searchDisplayController:shouldReloadTableForSearchString:]:DWLocationSearchViewController.m">
       </ContextState>
       <ContextState
-         contextName = "-[DWModel getData:]:DWModel.m">
+         contextName = "-[DWForecastItem toKilometersPH]:DWForecastItem.m">
       </ContextState>
       <ContextState
-         contextName = "-[DWForecastItem toKilometersPH]:DWForecastItem.m">
+         contextName = "-[DWModel getData:]:DWModel.m">
       </ContextState>
       <ContextState
          contextName = "-[DWLocationSearchViewController tableView:didSelectRowAtIndexPath:]:DWLocationSearchViewController.m">
@@ -134,15 +134,26 @@
       </ContextState>
       <ContextState
          contextName = "-[DWViewController viewDidLoad]:DWViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "refreshControl.attributedTitle.retainCount">
+            </PersistentString>
+            <PersistentString
+               value = "tmp.retainCount">
+            </PersistentString>
+            <PersistentString
+               value = "self.refreshControl.attributedTitle.retainCount">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[DWModel installSettings:]:DWModel.m">
          <PersistentStrings>
             <PersistentString
-               value = "self.weatherInfo.windSpeedOption">
+               value = "self.weatherInfo.currentWeather">
             </PersistentString>
             <PersistentString
-               value = "self.weatherInfo.currentWeather">
+               value = "self.weatherInfo.windSpeedOption">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -166,6 +177,9 @@
       <ContextState
          contextName = "-[DWViewController refreshMainCellData:]:DWViewController.m">
          <PersistentStrings>
+            <PersistentString
+               value = "self.refreshControl.attributedTitle.retainCount">
+            </PersistentString>
             <PersistentString
                value = "[dictionary objectForKey:@&quot;icon&quot;]">
             </PersistentString>

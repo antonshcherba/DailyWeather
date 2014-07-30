@@ -55,7 +55,7 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry_birds_cake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mFP-4O-egf">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mFP-4O-egf">
                         <rect key="frame" x="45" y="281" width="32" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <constraints>
@@ -133,7 +133,4 @@
             </connections>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="angry_birds_cake.jpg" width="560" height="350"/>
-    </resources>
 </document>

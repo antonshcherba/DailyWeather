@@ -68,7 +68,8 @@
 - (void) getData: (NSNotification *) notification
 {
     if (!self.weatherInfo) {
-        self.weatherInfo = [[DWWorldWeatherOnlineService alloc] init];
+        return;
+        //self.weatherInfo = [[DWWorldWeatherOnlineService alloc] init];
     }
     
     [notification.userInfo retain];
